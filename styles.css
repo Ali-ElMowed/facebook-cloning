@@ -139,3 +139,16 @@ hr{
     margin: 20px;
 
 }
+.under{
+    border:none;
+    text-align: center;
+    margin-top: 70px;
+    background-color: #F0F2F5;
+}
+p span{
+    font-weight: bolder;
+    cursor: pointer;
+}
+p span:hover{
+    text-decoration: underline;
+}
