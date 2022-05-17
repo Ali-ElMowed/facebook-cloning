@@ -45,7 +45,7 @@
     width: 100%;
     background-color: #F0F2F5;
     font-size: 48px;
-    color: #4267B2;
+    color: #1877f2;
    padding: 60px 0px;
     margin: 0;
     border-top-right-radius: 10px;
@@ -69,4 +69,73 @@
     font-weight: lighter;
     font-size:18px  ;
     margin: 0;
+}
+.login, .bg{
+    background-color: white;
+}
+.facebook-login{
+    margin: 0;
+    margin-right: 250px;
+    margin-top: 40px;
+    background-color: white;
+    width: 400px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form{
+    margin: 0;
+    padding: 0;
+    margin-top:20px ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.padd-inp , .btn{
+    margin: 0;
+   width: 90%;
+   margin-left: 5%;
+   padding: 15px 0;
+   border-radius: 5px;
+   border: 2px solid #F0F2F5;
+}
+.padd-inp::placeholder{
+    padding-left: 10px;
+    font-size: larger;
+}
+.form p{
+    text-align: center;
+    
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+p a{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: smaller;
+    color: #1877f2;
+}
+.login-txt{
+    background-color:#1877f2;
+}
+.create { 
+    width: 66.66%;
+    margin-left: 17%;  
+    background-color: #42b72a;
+
+}
+.login-txt, .create{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+hr{
+    
+    background-color: #F0F2F5;
+    border: #F0F2F5;
+    padding: 0.5px;
+    margin: 20px;
+
 }
