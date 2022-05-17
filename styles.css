@@ -130,6 +130,7 @@ p a{
     color: white;
     font-size: larger;
     font-weight: bold;
+    cursor: pointer;
 }
 hr{
     
