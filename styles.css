@@ -1,0 +1,29 @@
+*{
+    background-color: #F0F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.facebook-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.facebook-word-img{
+    max-width: 200px;
+}
+.facebook-title-content{
+    margin-left: 25px;
+}
+.facebook-title-content > h2 {
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.facebook-title-content > p{
+    color:#606770;
+}
